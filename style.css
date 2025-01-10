@@ -1,0 +1,33 @@
+/* Font style */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    margin:50px;
+  }
+  /* nav style */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    /* gap:150px; */
+  }
+  nav h3{
+    color: #0E0E0E;
+  }
+.btn-signin{
+    color:#006A50;
+    border: 1px solid #006A50;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn-signin:hover{
+    background-color: #0E0E0E;
+    color: white;
+  }
+  
+  
+
+  
