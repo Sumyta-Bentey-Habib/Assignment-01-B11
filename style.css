@@ -5,13 +5,12 @@
     font-style: normal;
   }
   body{
-    margin:50px;
+    margin:0px 160px 160px 160px;
   }
   /* nav style */
   nav{
     display: flex;
-    justify-content: space-between;
-    /* gap:150px; */
+    justify-content: space-between; 
   }
   nav h3{
     color: #0E0E0E;
@@ -19,7 +18,7 @@
 .btn-signin{
     color:#006A50;
     border: 1px solid #006A50;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 8px;
     cursor: pointer;
   }
@@ -27,7 +26,55 @@
     background-color: #0E0E0E;
     color: white;
   }
+  /* Hero-container */
+  .hero-container {
+    margin-top: 20px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    /* padding: 80px 100px; */
+    text-align: left; 
+    gap: 20px; 
+    border-radius: 8px;
+  }
   
+  .hero-text {
+    width: 622px;
+    height: auto;
+    padding: 117px 60px 117px 60px; 
+    box-sizing: border-box; 
+  }
+  
+  .hero-text h2 {
+    color: #0E0E0E;
+    opacity: 50%;
+  }
+  
+  .hero-text p {
+    color: #0E0E0E;
+    opacity: 100%;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  
+  .hero-image img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+  }
+  
+  .btn-hero {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #006A50;
+    color: white;
+  }
+  
+  
+
   
 
   
