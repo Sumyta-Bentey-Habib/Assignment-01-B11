@@ -226,7 +226,7 @@ background: rgb(247, 235, 207);
 .quote{
   color: #0E0E0E;
   opacity: 80%;
-  background-image: url('/assets/quote-bg.png');
+  background-image: url('./assets/quote-bg.png');
   background-repeat: no-repeat;
 
 }
@@ -238,3 +238,59 @@ background: rgb(247, 235, 207);
   color: #0E0E0E;
   opacity: 60%;
 }
+
+/* Opinion matter  */
+.opinion{
+  margin-top: 80px;
+}
+.opinion-container {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.opinion-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion-table thead th {
+  background-color: #d9f0d9;
+  text-align: left;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.opinion-table tbody td {
+  border-top: 1px solid #ddd;
+  padding: 12px;
+  font-size: 14px;
+}
+
+
+.questions-col {
+  color: #0E0E0E;
+  opacity: 100%;
+  border-right: 1px solid #ccc;
+  width: 70%; 
+}
+select {
+  width: 150px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #999;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
