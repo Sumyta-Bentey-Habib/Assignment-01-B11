@@ -7,6 +7,13 @@
   body{
     margin:0px 160px 160px 160px;
   }
+/* shared style */
+.title{
+  color: #0E0E0E;
+    opacity: 100%;
+  font-size: 40px;
+  font-weight: bold;
+}
   /* nav style */
   nav{
     display: flex;
@@ -33,7 +40,6 @@
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    /* padding: 80px 100px; */
     text-align: left; 
     gap: 20px; 
     border-radius: 8px;
@@ -83,6 +89,7 @@
     margin-top: 20px;
   }
   .pillar-card{
+    margin-top: 32px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -95,7 +102,7 @@ height: 53.09px;
 left: 13.34px;
 top: 4px;
 }
-.pillar-card h4{
+.pillar-card h5{
   color:#0E0E0E;
   opacity: 80%;
   text-align: left;
@@ -106,6 +113,128 @@ top: 4px;
   text-align: left;
 }
 
+/* The Vision of Future */
+.vision-of-future{
+  margin-top: 80px;
+}
+.vision-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 20px;
+  /* padding: 32px; */
+}
+.vision-container img{ 
+  width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 4px;
+}
+.vision-card-1{
+  box-sizing: border-box;
+  border-radius: 16px;
   
+  background: rgba(84, 144, 245, 0.2);
 
-  
+}
+.vision-card-1 h5{
+  color: #0E0E0E;
+  opacity: 100%;
+}
+.vision-card-1 p{
+  color:#0E0E0E;
+  opacity: 70%; 
+ }
+.btn-1{
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  width: 122px;
+  height: 41px;
+  cursor: pointer;
+}
+.vision-card-2{
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+.vision-card-2 h5{
+  color: #0E0E0E;
+  opacity: 100%;}
+
+  .vision-card-2 p{
+    color:#0E0E0E;
+    opacity: 70%; 
+   }
+
+.btn-2{
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  width: 122px;
+  height: 41px;
+  cursor: pointer;
+}
+
+.vision-card-3{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+}
+.vision-card-3 h5{
+  color: #0E0E0E;
+  opacity: 100%;
+}
+.vision-card-3 p{
+  color:#0E0E0E;
+  opacity: 70%; 
+ }
+.btn-3{
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  width: 122px;
+  height: 41px;
+  cursor: pointer;
+}
+.vision-card-1,
+.vision-card-2,
+.vision-card-3 {
+ padding: 20px; 
+}
+
+/* Quotes container */
+.quote-container{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-top: 32px;
+  padding: 48px 24px 48px 24px;
+  /* background-image: url('/assets/quote-bg.png');
+  background-repeat: no-repeat; */
+}
+.quote{
+  color: #0E0E0E;
+  opacity: 80%;
+  background-image: url('/assets/quote-bg.png');
+  background-repeat: no-repeat;
+
+}
+.author{
+  color: #0E0E0E;
+  opacity: 80%;
+}
+.author-position{
+  color: #0E0E0E;
+  opacity: 60%;
+}
