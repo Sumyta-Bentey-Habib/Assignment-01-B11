@@ -72,8 +72,39 @@
     background-color: #006A50;
     color: white;
   }
-  
-  
+  /* Pillars of "Bangladesh 2.0" section  */
+  .pillar-section{
+    margin-top: 80px;
+  }
+  .pillars-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 20px;
+  }
+  .pillar-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+  }
+  .pillar-card img{
+width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 4px;
+}
+.pillar-card h4{
+  color:#0E0E0E;
+  opacity: 80%;
+  text-align: left;
+}
+.pillar-card p{
+  color:#0E0E0E;
+  opacity: 70%;
+  text-align: left;
+}
 
   
 
